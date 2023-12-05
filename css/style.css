@@ -11,15 +11,22 @@ body {
 }
 
 
+
 /*? ## UTILS */
 
 
-
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
 
 
 /* todo === HEADER === */
 
-
+header {
+  text-align: center;
+}
 
 
 
@@ -27,9 +34,30 @@ body {
 /* todo === MAIN === */
 
 
+.container {
+  padding: 1rem;
+  margin: 10px auto;
+  max-width: 90%;
+}
 
+.row {
+  padding: -1rem;
+}
 
+.col_1-6 {
+  width: calc(100% / 3);
+  float: left;
+  padding: 10px;
+}
 
+.card {
+  padding: 50px;
+  background-color: brown;
+}
+
+img {
+  height: 100%;
+}
 
 
 
