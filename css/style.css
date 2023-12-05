@@ -69,6 +69,7 @@ header p {
   background-color: black;
   height: 130px;
   color: white;
+  box-shadow: 0 0 8px 1px #666;
 }
 
 .card-info {
