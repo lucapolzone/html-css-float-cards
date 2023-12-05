@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Fredoka', sans-serif;
 }
 
 
@@ -26,9 +26,21 @@ body {
 
 header {
   text-align: center;
+  padding: 1rem;
+  margin: 0 auto;
+  max-width: 90%;
+  /* background-color: rgb(218, 59, 133); */
 }
 
+header h1 {
+  margin-top: 1rem;
+  color: deeppink;
+}
 
+header p {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
 
 
 /* todo === MAIN === */
@@ -36,8 +48,9 @@ header {
 
 .container {
   padding: 1rem;
-  margin: 10px auto;
+  margin: 1rem auto;
   max-width: 90%;
+  /* background-color: grey; */
 }
 
 .row {
