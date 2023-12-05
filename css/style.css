@@ -6,6 +6,7 @@
   box-sizing: border-box;
 }
 
+
 body {
   font-family: 'Fredoka', sans-serif;
 }
@@ -16,8 +17,8 @@ a {
 }
 
 
-/*? ## UTILS */
 
+/*? ## UTILS */
 
 .clearfix::after {
   content: '';
@@ -26,37 +27,36 @@ a {
 }
 
 
+/* todo === CONTAINER === */
+
+.container {
+  margin: 0 auto;
+  max-width: 90%;
+  padding: 0 1rem;
+}
+
+
 /* todo === HEADER === */
 
 header {
   text-align: center;
-  padding: 1rem;
-  margin: 0 auto;
-  max-width: 90%;
-  /* background-color: rgb(218, 59, 133); */
 }
 
-header h1 {
+.header-title {
   margin-top: 1rem;
   color: deeppink;
 }
 
-header p {
+.header-subtitle {
   margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 
 /* todo === MAIN === */
 
-
-.container {
-  margin: 1rem auto;
-  max-width: 90%;
-  /* background-color: grey; */
-}
-
 .row {
-  padding: -1rem;
+  margin: 0 -1rem;
 }
 
 .col_1-6 {
@@ -72,6 +72,11 @@ header p {
   box-shadow: 0 0 8px 1px #666;
 }
 
+.card-img {
+  height: 100%;
+  float: left;
+}
+
 .card-info {
   display: flex;
   flex-direction: column;
@@ -80,7 +85,3 @@ header p {
   padding: 1rem;
 }
 
-img {
-  height: 100%;
-  float: left;
-}
