@@ -79,11 +79,13 @@ header {
   height: 100%;
 }
 
+.card h2 {
+  line-height: 35px;
+}
+
 .card-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
   height: 100%;
   padding: 1rem;
+  line-height: 30px;
 }
 
